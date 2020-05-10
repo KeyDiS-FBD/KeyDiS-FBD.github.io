@@ -2,45 +2,44 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <style>
-        @import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
 
-    </style>
-    <div class="heading"> TicTacToe </div>
-    <div id="start_game">
-        <div>
-            Welcome to the Game "Tic Tac Toe" <br>
-            Please, choose a side:
-        </div>
-        <a class="x" data-start-button href="#"></a>
-        <a class="o" data-start-button href="#"></a>
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+  </style>
+  <div class="heading"> TicTacToe </div>
+  <div id="start_game">
+    <div>
+      Welcome to the Game "Tic Tac Toe" <br>
+      Please, choose a side:
     </div>
+    <a class="x" data-start-button href="#"></a>
+    <a class="o" data-start-button href="#"></a>
+  </div>
+  <div class="board hide">
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+  </div>
 
-    <div class="board hide">
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-    </div>
+  <div class="end_game hide">
+    <div class="end_game_message"></div>
+    <a class="restart_game" href="#">Restart</a>
+  </div>
 
-    <div class="end_game hide">
-        <div class="end_game_message"></div>
-        <a class="restart_game" href="#">Restart</a>
-    </div>
-
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
